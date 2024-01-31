@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 3 columnas con el mismo ancho */
+    grid-gap: 20px; /* Espacio entre las celdas del grid */
+    padding: 20px; /* Espacio alrededor del grid */
+  background-color: #525252;
+
+  }
+  
+  /* Estilos para cada sección del grid */
+  .info-user {
+    grid-column: span 5; /* Ocupa las 3 columnas del grid */
+    height: 50px; /* Altura de 50px */
+  }
+  .info-user, .timer, .todo-list, .historial, .music-grid {
+    -webkit-box-shadow: 3px 0px 15px 0px rgba(49,49,49,1);
+-moz-box-shadow: 3px 0px 15px 0px rgba(49,49,49,1);
+box-shadow: 3px 0px 15px 0px rgba(49,49,49,1);
+  padding: 10px; /* Espacio interno en cada sección */
+  background-color: #414141;
+  border-radius: 10px;
+  }
+  
+  .timer {
+    grid-column: span 4; /* Ocupa desde la columna 2 hasta la columna 5 (4 columnas) */
+  height: 500px;
+  }
+  .todo-list{
+    grid-column: span 1; /* Ocupa una sola columna, al lado de Timer */
+    grid-row: span 2; /* Ocupa dos filas */
+  }
+  .historial{
+  height: 263px;
+  grid-column: span 3; /* Ocupa una sola columna, al lado de Timer */
+  }
+  .music-grid{
+    height: 263px;
+  } 
+
+
+
+
+/* Paleta de colores */
+
+/* #525252 gris 
+ #414141 grisOscuro
+#313131 grisNegro
+#CA3E47 rojoContraste */

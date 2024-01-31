@@ -1,0 +1,102 @@
+.ContainerTimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .ContainerTimer div{
+    margin-bottom: 10px;
+  }
+  .BotoneraTimer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .BotoneraTimer button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  span {
+    display: block;
+    font-size: 50px;
+    background-color: #f2f2f2a4; /* Fondo claro */
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  /* Estilos para el modal (ajústalos según necesites) */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilos específicos para los elementos dentro del modal */
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content input {
+    width: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .ContainerBtnModal{
+    margin-top: 200px;
+  }
+.btnAplicarModal{
+  
+    font-size: 1.3rem;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 50px;
+}
+  /* Nuevos estilos para la cruz (botón de cerrar) */
+ .close-button {
+   background-color: rgba(255, 0, 0, 0.253);
+   border-radius: 20px;
+   padding: 10px;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none;
+    width: 70px;
+    align-items: center;
+    margin-left: 50px;
+  }
+  /* Ajustes adicionales según tus necesidades */
+  .IconButtons{
+    color: white;
+  }
